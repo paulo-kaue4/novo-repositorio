@@ -3,14 +3,11 @@
 // found in the LICENSE file.
 
 import 'dart:ui' as ui show Color;
-
 import 'package:flutter/foundation.dart';
 import 'package:vector_math/vector_math_64.dart';
-
 import 'box.dart';
 import 'layer.dart';
 import 'object.dart';
-
 /// A context in which a [FlowDelegate] paints.
 ///
 /// Provides information about the current size of the container and the
